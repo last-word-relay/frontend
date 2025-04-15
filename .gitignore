@@ -1,9 +1,93 @@
 # Dependencies
-.psci_modules
-.spago
-bower_components
-node_modules
+/node_modules
 
-# Generated files
-.psci
-output
+# Build output
+/build
+/dist
+
+# Static files from build
+/public/static
+
+# Yarn related files
+yarn-error.log
+.pnp.*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor related files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS related files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+/coverage
+
+# Optional: Cache or temporary files
+/cache
+.sass-cache
+/tmp
+
+# Optional: Compiled output (if you have other build processes)
+/out
+
+# Optional: Documentation output
+/docs/_build
+
+# Optional: Storybook build output
+/storybook-static
+
+# Optional: Parcel cache
+.parcel-cache
+
+# Optional: Gatsby cache
+.cache
+/public/.cache
+
+# Optional: Next.js cache
+.next
+.next.lock
+
+# Optional: Expo cache
+.expo
+.eas-build-cache
+.eas-local-build-cache
+
+# Optional: IntelliJ
+*.iml
+.workspace
+
+# Optional: JetBrains Rider
+*.sln.DotSettings
+*.sln.DotSettings.user
+.idea/workspace.xml
+.idea/tasks/
+.idea/shelf/
+
+# Optional: Visual Studio Code
+.history/
+
+# Optional: macOS files
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.fseventsd
